@@ -1,0 +1,55 @@
+.center_body{
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+.active{
+  background-color: #111111;
+}
+
+li .menu{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li .menu:hover {
+  background-color: #111111;
+  color: white;
+}
+
+.menuTitre{
+  color: white;
+  text-align: center;
+  padding: 16px;
+  float: right;
+  font-weight: bold;
+  font-size: medium;
+  margin-right: 2%;
+  font-family: 'Courier New', monospace;
+}
+
+.list_container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 50px;
+}
+
+.center_body h1{
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
